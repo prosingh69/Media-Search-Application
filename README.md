@@ -3,7 +3,6 @@
 A powerful React application that serves as a one-stop search engine for Photos, Videos, and GIFs. This project demonstrates complex state management using **Redux** and integrates multiple third-party APIs to fetch high-quality media assets in real-time.
 
 ![Project Preview](public/Screenshot%202026-02-11%20090210.png)
-*(Note: Replace `public/preview.png` with a screenshot of your app)*
 
 ## 🚀 Live Demo
 [View Live Demo](https://mediasearchappli.netlify.app/)
