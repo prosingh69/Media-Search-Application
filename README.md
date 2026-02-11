@@ -1,16 +1,28 @@
-# React + Vite
+# 🎬 Ultimate Media Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful React application that serves as a one-stop search engine for Photos, Videos, and GIFs. This project demonstrates complex state management using **Redux** and integrates multiple third-party APIs to fetch high-quality media assets in real-time.
 
-Currently, two official plugins are available:
+![Project Preview](public/preview.png)
+*(Note: Replace `public/preview.png` with a screenshot of your app)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+[View Live Demo](INSERT_YOUR_DEPLOYED_LINK_HERE)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Multi-API Integration:** Seamlessly fetches data from:
+  - 📸 **Unsplash** (High-quality Photos)
+  - 🎥 **Pexels** (Stock Videos)
+  - 👾 **Giphy** (Animated GIFs)
+- **Centralized State Management:** Uses **Redux** to handle data fetching, loading states, and error handling efficiently.
+- **Dynamic Search:** Real-time search functionality that updates results across all categories.
+- **Responsive Masonry Grid:** Displays media in an aesthetic, mobile-friendly layout.
+- **Tabbed Navigation:** Easily switch between Photo, Video, and GIF results.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js
+- **State Management:** Redux (Redux Toolkit)
+- **Styling:** CSS3 / TailwindCSS
+- **APIs:** Unsplash API, Pexels API, Giphy API
+
